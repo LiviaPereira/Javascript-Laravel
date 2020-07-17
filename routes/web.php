@@ -16,3 +16,26 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+
+Route::post('/teste', function (Request $request){
+    dd($request);
+});
+
+
+Route::get('/teste', function (){
+    return view('form');
+});
+
+//rotas de tarefa
+
+
+
+
+
+//rotas de usuarios
+
+
+
+
+//rotas de produtos
